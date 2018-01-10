@@ -31,7 +31,7 @@ $('#login').on('click', function (event) {
     var errorCode = error.code;
     var errorMessage = error.message;
     // ...
-    window.location.href = 'newfeed.html';
+    $(location).attr('href', 'newsfeed.html');
   });
 
 //   var user = firebase.auth().currentUser;
@@ -42,7 +42,7 @@ $('#login').on('click', function (event) {
 //     // No user is signed in.
 //     alert('Ingresa o regístrate');
 //   }
-// });
+});
 
 
 
